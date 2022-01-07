@@ -9,7 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  padding: 0 3rem;
+  padding: 0 2rem;
 }
 .pimg1,
 .pimg2,
@@ -59,4 +59,26 @@ section p {
   font-size: 1.5rem;
   font-weight: 400;
   text-align: justify;
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 85%;
+  }
+  body {
+    padding: 0;
+  }
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    background-attachment: scroll;
+  }
+  section p {
+    text-align: center;
+  }
+}
+@media (max-width: 568px) {
+  html {
+    font-size: 70%;
+  }
 }
