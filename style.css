@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0 3rem;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  opacity: 0.9;
+  text-align: center;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.pimg1 {
+  background-image: url("img/bg1.jpg");
+  min-height: 100vh;
+}
+.pimg2 {
+  background-image: url("img/bg2.jpg");
+  min-height: 30rem;
+}
+.pimg3 {
+  background-image: url("img/santa.jpg");
+  min-height: 30rem;
+}
+.border {
+  position: absolute;
+  top: 50%;
+  font-size: 4rem;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background-color: black;
+  max-width: 50rem;
+  padding: 1rem;
+  height: auto;
+}
+.section {
+  text-align: center;
+  padding: 2.5rem 5rem;
+  background-color: #191919;
+  color: #fff;
+}
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+section p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: justify;
+}
